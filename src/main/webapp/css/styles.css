@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/background1.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    /* Remove any gradient or background color */
+    background-color: transparent;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0288d1;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.login-btn:hover {
+    background-color: #0277bd;
+}
+
+.social-login {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+}
+
+.social-btn {
+    width: 48%;
+    padding: 10px;
+    margin: 0 2%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: white;
+}
+
+.facebook-btn {
+    background-color: #4267B2;
+    color: white;
+}
+
+.social-btn:hover {
+    opacity: 0.9;
+}
+
+.extra-options {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.extra-options a {
+    color: #0288d1;
+    text-decoration: none;
+}
+
+.extra-options a:hover {
+    text-decoration: underline;
+}
